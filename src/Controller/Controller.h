@@ -7,6 +7,8 @@
 
 #ifndef CONTROLLER_CONTROLLER_H_
 #define CONTROLLER_CONTROLLER_H_
+using namespace std;
+#include <string>;
 
 class Controller
 {
@@ -17,6 +19,7 @@ public :
 	void setClassCount(int classCount);
 	int getClassCount();
 	void start();
+	void setClassName(string className);
 };
 
 
